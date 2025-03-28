@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.35906.104 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lije", "Lije\Lije.csproj", "{F81E6AA6-6F35-4CD1-8996-6162CBC17464}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geex.Play.Data", "Geex.Play.Data\Geex.Play.Data.csproj", "{51EC87B0-CA35-4907-A36C-140767E9969D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geex.Run", "Geex.Run\Geex.Run.csproj", "{66217238-3F53-4E8A-8184-DA763E962D73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F81E6AA6-6F35-4CD1-8996-6162CBC17464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F81E6AA6-6F35-4CD1-8996-6162CBC17464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F81E6AA6-6F35-4CD1-8996-6162CBC17464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F81E6AA6-6F35-4CD1-8996-6162CBC17464}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51EC87B0-CA35-4907-A36C-140767E9969D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51EC87B0-CA35-4907-A36C-140767E9969D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51EC87B0-CA35-4907-A36C-140767E9969D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51EC87B0-CA35-4907-A36C-140767E9969D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66217238-3F53-4E8A-8184-DA763E962D73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66217238-3F53-4E8A-8184-DA763E962D73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66217238-3F53-4E8A-8184-DA763E962D73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66217238-3F53-4E8A-8184-DA763E962D73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

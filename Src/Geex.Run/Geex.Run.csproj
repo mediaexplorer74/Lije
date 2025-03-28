@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\Admin\Desktop\RE\Lije\Geex.Run.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{66217238-3F53-4E8A-8184-DA763E962D73}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Geex.Run</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Geex</RootNamespace>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MonoGame.Framework, Version=3.7.1.189, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MonoGame.Framework.WindowsDX.3.7.1.189\lib\net45\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpDX.4.0.1\lib\net45\SharpDX.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.Direct2D1, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpDX.Direct2D1.4.0.1\lib\net45\SharpDX.Direct2D1.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.Direct3D11, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpDX.Direct3D11.4.0.1\lib\net45\SharpDX.Direct3D11.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.Direct3D9, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpDX.Direct3D9.4.0.1\lib\net45\SharpDX.Direct3D9.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.DXGI, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpDX.DXGI.4.0.1\lib\net45\SharpDX.DXGI.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.Mathematics, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpDX.Mathematics.4.0.1\lib\net45\SharpDX.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.MediaFoundation, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpDX.MediaFoundation.4.0.1\lib\net45\SharpDX.MediaFoundation.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.XAudio2, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpDX.XAudio2.4.0.1\lib\net45\SharpDX.XAudio2.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.XInput, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpDX.XInput.4.0.1\lib\net45\SharpDX.XInput.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Xna.Framework.Storage, Version=4.0.9001.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\nkast.Xna.Framework.Storage.4.0.9001\lib\netstandard2.0\Xna.Framework.Storage.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Edit\GeexEdit.cs" />
+    <Compile Include="Run\Actor.cs" />
+    <Compile Include="Run\Animation.cs" />
+    <Compile Include="Run\Armor.cs" />
+    <Compile Include="Run\AudioFile.cs" />
+    <Compile Include="Run\Carriable.cs" />
+    <Compile Include="Run\Class.cs" />
+    <Compile Include="Run\CommonEvent.cs" />
+    <Compile Include="Run\Event.cs" />
+    <Compile Include="Run\EventCommand.cs" />
+    <Compile Include="Run\Item.cs" />
+    <Compile Include="Run\Map.cs" />
+    <Compile Include="Run\MapInfo.cs" />
+    <Compile Include="Run\MoveCommand.cs" />
+    <Compile Include="Run\MoveRoute.cs" />
+    <Compile Include="Run\Npc.cs" />
+    <Compile Include="Run\Panorama.cs" />
+    <Compile Include="Run\Skill.cs" />
+    <Compile Include="Run\State.cs" />
+    <Compile Include="Run\SystemData.cs" />
+    <Compile Include="Run\Tileset.cs" />
+    <Compile Include="Run\Troop.cs" />
+    <Compile Include="Run\Weapon.cs" />
+    <Compile Include="Run\Direction.cs" />
+    <Compile Include="Run\MakeCommandType.cs" />
+    <Compile Include="Run\GeexEffectType.cs" />
+    <Compile Include="Run\ColorTag.cs" />
+    <Compile Include="Run\Mask.cs" />
+    <Compile Include="Run\Audio.cs" />
+    <Compile Include="Run\BackgroundEnd.cs" />
+    <Compile Include="Run\GeexEffect.cs" />
+    <Compile Include="Run\EffectManager.cs" />
+    <Compile Include="Run\ErrorCode.cs" />
+    <Compile Include="Run\ErrorManager.cs" />
+    <Compile Include="Run\FontFiles.cs" />
+    <Compile Include="Run\GeexAsyncManager.cs" />
+    <Compile Include="Run\GeexContentManager.cs" />
+    <Compile Include="Run\HSL.cs" />
+    <Compile Include="Run\SpriteText.cs" />
+    <Compile Include="Run\TileAboveAll.cs" />
+    <Compile Include="Run\TileGround.cs" />
+    <Compile Include="Run\TileLines.cs" />
+    <Compile Include="Run\Main.cs" />
+    <Compile Include="Run\Bitmap.cs" />
+    <Compile Include="Run\IconData.cs" />
+    <Compile Include="Run\Cache.cs" />
+    <Compile Include="Run\Font.cs" />
+    <Compile Include="Run\GeexDictionary`2.cs" />
+    <Compile Include="Run\Graphics.cs" />
+    <Compile Include="Run\Input.cs" />
+    <Compile Include="Run\Quad.cs" />
+    <Compile Include="Run\RectangleExtension.cs" />
+    <Compile Include="Run\Line.cs" />
+    <Compile Include="Run\Circle.cs" />
+    <Compile Include="Run\Intersect.cs" />
+    <Compile Include="Run\GeexMouse.cs" />
+    <Compile Include="Run\PadState.cs" />
+    <Compile Include="Run\Pad.cs" />
+    <Compile Include="Run\Pad2.cs" />
+    <Compile Include="Run\Plane.cs" />
+    <Compile Include="Run\SceneBase.cs" />
+    <Compile Include="Run\SceneLogo.cs" />
+    <Compile Include="Run\Sprite.cs" />
+    <Compile Include="Run\TileManager.cs" />
+    <Compile Include="Run\Tone.cs" />
+    <Compile Include="Run\VideoComponent.cs" />
+    <Compile Include="Run\Viewport.cs" />
+    <Compile Include="Run\Window.cs" />
+    <Compile Include="Run\Resources.cs" />
+    <Compile Include="Run\Services.cs" />
+    <Compile Include="Run\LicenseData.cs" />
+    <Compile Include="Run\Storage.cs" />
+    <Compile Include="Run\SaveBase.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Microsoft\Xna\Framework.RuntimeProfile" />
+    <EmbeddedResource Include="Run\Resources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\MonoGame.Framework.WindowsDX.3.7.1.189\build\MonoGame.Framework.WindowsDX.targets" Condition="Exists('..\packages\MonoGame.Framework.WindowsDX.3.7.1.189\build\MonoGame.Framework.WindowsDX.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\MonoGame.Framework.WindowsDX.3.7.1.189\build\MonoGame.Framework.WindowsDX.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MonoGame.Framework.WindowsDX.3.7.1.189\build\MonoGame.Framework.WindowsDX.targets'))" />
+  </Target>
+</Project>
