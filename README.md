@@ -39,11 +39,14 @@ In Lije's world, beliefs shape reality. Should a rumor spread enough, that it wo
 - Realize normal screen scaling ...
 - try to construct "uwp edition" :)
 
-## .
-As is. No support. DIY. Learn purposes only.
 
 ## Reference(s)
-https://rufflerim.itch.io/lije Lije, "frozen" original project (it is on hold more then 7 years)
+- https://rufflerim.itch.io/lije Lije, "frozen" original project (it is on hold more then 7 years)
+- https://www.youtube.com/watch?v=IcPtGkVjMNo [EN] Laughing - Lije (1) - Yet Unpopular Indie Games by Backstage Miri Psyche
+
+
+## .
+As is. No support. DIY. Learn purposes only.
 
 ## ..
 [m][e] March 2025
