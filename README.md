@@ -29,13 +29,10 @@ In Lije's world, beliefs shape reality. Should a rumor spread enough, that it wo
 - Usability my reversed src code: very unstable, 100500 bugs still here (init state... game cache/storage damaged)
 - .NET 4.8 used
 
-## Game control via Touch panel
-- Tap screen : "simple touch" (start game / jump / fire)
-- Tap screen left : Left move
-- Tap screen right : Right move
-- Tap screen top : Top move
-- Tap screen bottom : Down move
-- Swipe left (two-finger tap and move left) : change "player form" ("metamorphose")
+## How to build this project? Where is game content?
+- Download original setup archive, unzip and find original Contents folder. 
+- Look at /Src/Lije/Content. Find del2.bat file, place it in original Contents folder, and use this bachfile to delete second (.deploy) extension.
+- Then copy the result into Contents folder. Then try to build app.
 
 ## ToDo
 - Solve Xna.Framework.Storage.dll mystery (is it oblsolete part of Monogame engine??)
