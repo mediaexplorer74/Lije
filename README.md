@@ -19,7 +19,7 @@ In Lije's world, beliefs shape reality. Should a rumor spread enough, that it wo
 
 
 ## My 2 cents
-- Game setup fixed, app istalled and [D]ot[P]eeked"
+- Game setup fixed, app installed and [D]ot[P]eeked"
 - C# 12.0 language constructions substituted by normal C# (for better VS 2017 compatibility)
 - .NET 4.0 - .NET 4.8 upgrade :)
 
@@ -42,7 +42,9 @@ In Lije's world, beliefs shape reality. Should a rumor spread enough, that it wo
 
 ## Reference(s)
 - https://rufflerim.itch.io/lije Lije, "frozen" original project (it is on hold more then 7 years)
-- https://www.youtube.com/watch?v=IcPtGkVjMNo [EN] Laughing - Lije (1) - Yet Unpopular Indie Games by Backstage Miri Psyche
+- https://www.youtube.com/watch?v=IcPtGkVjMNo Yet Unpopular Indie Game (Part 1)
+- https://www.youtube.com/watch?v=rVyxEH7SX3U Yet Unpopular Indie Game (Part 2)
+- https://www.youtube.com/watch?v=4OVXCXL7jPg Yet Unpopular Indie Game (Part 3)
 
 
 ## .
